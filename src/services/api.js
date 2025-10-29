@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance with base configuration
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://ahad-cepal-clickhr.vercel.app/api',
   timeout: 30000, // 30 seconds timeout
   headers: {
     'Content-Type': 'application/json'

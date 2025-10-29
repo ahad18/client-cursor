@@ -1,5 +1,2 @@
-# Ignore environment variables
-.env
-
-# Ignore mode modules
-mode_modules
+/.env
+/mode_modules

@@ -7,7 +7,7 @@
         <p>Abdul Ahad Sharif - I8IS Inc</p>
         </div>
         <div class="header-actions">
-          <!-- <button 
+           <button 
             @click="handleSync" 
             :disabled="isSyncing"
             class="sync-button"
@@ -15,7 +15,7 @@
           >
             <span v-if="!isSyncing">Sync Now</span>
             <span v-else>Syncing...</span>
-          </button> -->
+          </button> 
         </div>
       </div>
     </header>
